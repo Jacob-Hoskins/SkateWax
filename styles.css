@@ -23,6 +23,7 @@ header{
 .bg-img{
     width: 100%;
     height: auto;
+    margin-top: 3%;
     
 }
 
@@ -40,6 +41,18 @@ header{
 
 .single-div{
     background-color: #980000;
+    color:#ffefdd;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+}
+
+.tone-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    font-size: 1.5em;
 }
 
 .single-header{
@@ -95,3 +108,9 @@ header{
     border: solid 3px #980000;
 }
 
+footer{
+    background-color: black;
+    text-align: center;
+    font-size: 2em;
+    padding: 3%
+}
